@@ -65,15 +65,14 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua.
         </p>
-        <a
-          href="#"
+        <router-link :to="{ name: 'about' }"
           data-layername="readMore"
           class="mt-7 text-lg leading-8 text-amber-300 hover:text-amber-400 transition-colors"
           tabindex="0"
           aria-label="Read more about our community"
         >
           Read More &gt;
-        </a>
+      </router-link>
       </article>
     </main>
   </template>

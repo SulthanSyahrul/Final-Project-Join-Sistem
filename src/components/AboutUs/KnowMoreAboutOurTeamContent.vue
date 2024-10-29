@@ -1,5 +1,5 @@
 <template>
-    <section class="flex flex-row grow shrink gap-10 justify-between self-stretch mt-20 mb-20 ml-40 font-bold text-gray-800 min-w-[240px] w-[1197px] max-md:max-w-full">
+    <section class="flex flex-row grow shrink gap-10 justify-between self-stretch mt-20 ml-40 font-bold text-gray-800 min-w-[240px] w-[1197px] max-md:max-w-full">
 
       <div class="flex flex-col self-stretch my-auto rounded-none min-w-[240px] w-[519px] max-md:max-w-full">
         <h2 class="self-start text-4xl tracking-tighter leading-none text-gray-800">

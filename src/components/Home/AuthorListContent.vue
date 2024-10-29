@@ -5,7 +5,8 @@
       </h1>
       <main class="mt-12 max-md:mt-10 max-md:max-w-full">
         <div class="flex gap-5 max-md:flex-col">
-          <article class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+          <router-link to="/author" class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+          <article class="">
             <div class="flex flex-col grow justify-center items-center px-7 py-10 w-full leading-none bg-zinc-100 min-h-[324px] max-md:px-5 max-md:mt-8">
               <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/7def7c70ae71cb4baa205fc9aa8a0ca386f3e41aae8afdf1a32d1393e2e357b9?placeholderIfAbsent=true&apiKey=c77564c134cc4e549f9977e76017d3f3" alt="Profile photo of Floyd Miles" class="object-contain w-32 max-w-full rounded-full aspect-square" />
               <h2 class="mt-3.5 text-3xl font-bold tracking-tighter text-gray-800">
@@ -17,7 +18,7 @@
               <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/f69f861c1e3276a06e4dc4b2c7d595d3d3651e0b7ea0abb65a922660c53e5006?placeholderIfAbsent=true&apiKey=c77564c134cc4e549f9977e76017d3f3" alt="" class="object-contain mt-3.5 w-28 max-w-full aspect-[6.99]" />
             </div>
           </article>
-  
+          </router-link>
           <article class="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
             <div class="flex flex-col grow justify-center items-center px-7 py-10 w-full leading-none bg-orange-50 min-h-[324px] max-md:px-5 max-md:mt-8">
               <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/98538e121d756b2712bc9ab1d525be5a97674cf67d39d86ea30ded67e756b194?placeholderIfAbsent=true&apiKey=c77564c134cc4e549f9977e76017d3f3" alt="Profile photo of Dianne Russell" class="object-contain w-32 max-w-full rounded-full aspect-square" />

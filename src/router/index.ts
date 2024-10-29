@@ -5,6 +5,8 @@ import Contact from '@/views/ContactUsView.vue'
 import AboutUs from '@/views/AboutUsView.vue'
 import BlogPost from '@/views/BlogPostView.vue'
 import PrivacyPolicy from '@/views/PrivacyPolicyView.vue'
+import CategoryView from '@/views/CategoryView.vue'
+import AuthorView from '@/views/AuthorView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -38,8 +40,17 @@ const router = createRouter({
       path:'/privacypolicy',
       name:'privacypolicy',
       component: PrivacyPolicy
+    },
+    {
+      path:'/category',
+      name:'category',
+      component: CategoryView
+    },
+    {
+      path:'/author',
+      name:'author',
+      component:AuthorView
     }
-
   ],
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {

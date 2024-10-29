@@ -5,7 +5,7 @@
         <div class="flex relative flex-col justify-center items-start px-20 py-40 w-full max-md:px-5 max-md:py-24 max-md:max-w-full">
           <article class="flex flex-col mb-0 max-w-full w-[804px] max-md:mb-2.5">
             <p class="font-semibold leading-none uppercase tracking-[3px] max-md:max-w-full">
-              <span class="font-medium">Posted on</span>
+              <span class="font-medium">Posted on </span>
               <span class="font-black">startup</span>
             </p>
             <h1 class="mt-7 text-6xl tracking-tighter leading-[64px] max-md:max-w-full max-md:text-4xl max-md:leading-[51px]">

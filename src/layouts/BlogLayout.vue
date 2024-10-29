@@ -5,7 +5,7 @@ import FeaturedPostContent from '@/components/Blog/FeaturedPostContent.vue';
 import AllPostContent from '@/components/Blog/AllPostContent.vue';
 import PaginationContent from '@/components/Blog/PaginationContent.vue';
 import AllCategoriesContent from '@/components/Blog/AllCategoriesContent.vue';
-import JoinTeamContent from '@/components/Blog/JoinTeamContent.vue';
+import JoinTeamContent from '@/components/JoinTeamContent.vue';
 </script>
 
 <template>

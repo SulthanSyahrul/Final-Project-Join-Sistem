@@ -15,14 +15,13 @@
           <p class="self-stretch mt-4 text-base leading-7 text-zinc-500 max-md:max-w-full">
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
           </p>
-          <button 
-            class="gap-3 px-12 py-4 mt-8 text-lg font-bold leading-none text-white bg-blue-600 max-md:px-5"
-            @click="handleReadMore"
-            tabindex="0"
+          <router-link :to="{ name: 'blogpost' }"
+            class="gap-3 px-12 py-4 mt-8 text-lg font-bold leading-none text-white bg-blue-600 max-md:px-5" 
+            tabindex="0" 
             aria-label="Read more about font pairs guide"
           >
             Read More &gt;
-          </button>
+          </router-link>
         </div>
       </section>
       <section class="flex flex-col ml-5 w-[45%] max-md:ml-0 max-md:w-full">
@@ -41,11 +40,6 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name: 'FeaturedPostContent',
-  methods: {
-    handleReadMore(): void {
-      // Handle read more click event
-    }
-  }
-})
+  name: 'FeaturedPostContent'
+});
 </script>

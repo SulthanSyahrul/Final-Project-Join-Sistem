@@ -8,7 +8,7 @@ import CategoriesContent from '@/components/Home/CategoriesContent.vue'
 import SpecialPostContent from '@/components/Home/SpecialPostContent.vue'
 import AuthorListContent from '@/components/Home/AuthorListContent.vue'
 import FeaturedLogoContent from '@/components/Home/FeaturedLogoContent.vue'
-import JoinTeamContent from '@/components/Home/JoinTeamContent.vue'
+import JoinTeamContent from '@/components/JoinTeamContent.vue'
 </script>
 
 <template>

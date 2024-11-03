@@ -13,7 +13,7 @@
         <router-link :to="{ name: 'blog' }" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">Blog</router-link>
       </li>
       <li>
-        <router-link :to="{ name: 'about' }" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">About Us</router-link>
+        <a class="text-white hover:text-x-yellow transition duration-150 ease-in-out">About Us</a>
       </li>
       <li>
         <router-link :to="{ name: 'contact' }" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">Contact us</router-link>

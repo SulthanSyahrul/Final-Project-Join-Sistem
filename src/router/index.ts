@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import BlogView from '@/views/BlogView.vue'
 import Contact from '@/views/ContactUsView.vue'
-import AboutUs from '@/views/AboutUsView.vue'
 import BlogPost from '@/views/BlogPostView.vue'
 import PrivacyPolicy from '@/views/PrivacyPolicyView.vue'
 import CategoryView from '@/views/CategoryView.vue'
@@ -25,11 +24,6 @@ const router = createRouter({
       path:'/contact',
       name:'contact',
       component: Contact
-    },
-    {
-      path:'/about',
-      name:'about',
-      component: AboutUs
     },
     {
       path:'/blog/blogpost',

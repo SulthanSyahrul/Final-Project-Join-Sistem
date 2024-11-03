@@ -1,5 +1,5 @@
 <template>
-    <section class="flex flex-col mt-28 w-full text-base font-bold text-white max-md:mt-10 max-md:max-w-full">
+    <section class="flex flex-col w-full text-base font-bold text-white max-md:mt-10 max-md:max-w-full">
       <div class="flex relative flex-col w-full min-h-[720px] max-md:max-w-full">
         <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/3e376978b57272bd60c5efd34433db1282886e675e73250683fed5fca36efb9b?placeholderIfAbsent=true&apiKey=c77564c134cc4e549f9977e76017d3f3" alt="Hero background image showing a cityscape" class="object-cover absolute inset-0 size-full" />
         <div class="flex relative flex-col justify-center items-start px-20 py-40 w-full max-md:px-5 max-md:py-24 max-md:max-w-full">

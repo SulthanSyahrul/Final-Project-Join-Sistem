@@ -18,7 +18,7 @@
       >
         <router-link :to="{ name: 'home' }" class="grow hover:text-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300">Home</router-link>
         <router-link :to="{ name: 'blog' }" class="hover:text-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300">Blog</router-link>
-        <router-link :to="{ name: 'about' }" class="hover:text-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300">About Us</router-link>
+        <a class="hover:text-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300">About Us</a>
         <router-link :to="{ name: 'contact' }" class="hover:text-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300">Contact us</router-link>
         <router-link :to="{ name: 'privacypolicy' }" class="hover:text-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300">Privacy Policy</router-link>
       </nav>

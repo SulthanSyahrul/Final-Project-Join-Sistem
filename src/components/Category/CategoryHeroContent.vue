@@ -1,5 +1,5 @@
 <template>
-    <section class="flex flex-col self-center mt-20 w-full text-base text-center text-gray-800 max-md:mt-10 max-md:max-w-full">
+    <section class="flex flex-col self-center w-full text-base text-center text-gray-800 max-md:mt-10 max-md:max-w-full">
       <div class="flex flex-col justify-center items-center p-20 w-full bg-gray-100 max-md:px-5 max-md:max-w-full">
         <div class="flex flex-col items-center max-w-full w-[472px]">
           <h1 class="text-6xl font-bold tracking-tighter leading-none max-md:text-4xl">
